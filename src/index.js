@@ -11,9 +11,8 @@ import App from './App'; // aqui importo otro componente
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
     <App />
-  </React.StrictMode>
+
 );
 
 //todo lo que necesites, lo importas y lo exportas desde un modulo de la carpeta node modules

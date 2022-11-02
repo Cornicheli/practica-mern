@@ -1,5 +1,7 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +12,86 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.flex {
+  display: flex;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.a-center {
+  align-items: center;
+}
+
+.white {
+  color: black;
+  background-color: white;
+}
+
+.black {
+  color: white;
+  background-color: black;
+}
+
+.gray {
+  color: black;
+  background-color: gray;
+}
+
+.gray:hover {
+  background-color: whitesmoke
+}
+
+.r25 {
+  margin-right: 2.5px;
+}
+
+.l25 {
+  margin-left: 2.5px;
+}
+
+.card {
+  width: 300px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.titulo {
+  padding: 10px;
+}
+
+.photo {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.edad-fecha {
+  display: flex;
+}
+
+.edad {
+  width: 40%;
+}
+
+.fecha {
+  width: 60%;
+}
+
+.datos {
+  padding: 5px;
+  margin-top: 5px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.flecha {
+  margin-top: 10px;
+  width: 50%;
+  font-size: 20px;
+  font-weight: 600;
 }
